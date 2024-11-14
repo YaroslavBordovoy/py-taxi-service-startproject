@@ -33,7 +33,8 @@ class Car(models.Model):
 
     def __str__(self) -> str:
         return (
-            f"{self.model} (manufacturer: {self.manufacturer}, drivers: {self.drivers})"
+            f"{self.model} (manufacturer: {self.manufacturer}, "
+            f"drivers: {self.drivers})"
         )
 
 
